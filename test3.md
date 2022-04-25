@@ -1,2 +1,2 @@
 [link1](https://something.com2)
-[link](abc.png)
+[link](abc.jpg)

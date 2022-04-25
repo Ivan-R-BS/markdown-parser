@@ -17,7 +17,7 @@ public class MarkdownParse {
             int closeBracket = markdown.indexOf("]", openBracket);
             int openParen = markdown.indexOf("(", closeBracket);
             int closeParen = markdown.indexOf(")", openParen);
-            if(markdown.substring(openParen + 1, closeParen).contains(".png") == false ){
+            if(markdown.substring(openParen + 1, closeParen).contains(".png") == false && markdown.substring(openParen + 1, closeParen).contains(".jpg") ==false ){
                 toReturn.add(markdown.substring(openParen + 1, closeParen));
             }
             
