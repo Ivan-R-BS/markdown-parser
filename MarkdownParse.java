@@ -23,7 +23,7 @@ public class MarkdownParse {
             if(inParen.toLowerCase().endsWith(".jpg") || 
                 inParen.toLowerCase().endsWith(".png") ||
                 ! inParen.contains(".") || 
-                inParen.indexOf(".") == inParen.length()-1 
+                inParen.indexOf(".") == inParen.length()-1 || inParen.toLowerCase().endsWith(".pdf")
                 ) {}
             else {
                 toReturn.add(inParen);
